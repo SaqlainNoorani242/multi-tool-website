@@ -24,17 +24,17 @@ export const metadata: Metadata = {
   keywords:
     "file converter, PDF to Word, image converter, video converter, audio converter, SVG to embroidery, handwriting to vector, 3D model converter, Excel to CSV, PowerPoint to PDF, online conversion tools",
   authors: [{ name: "ConvertHub Team" }],
-  creator: "ConvertHub",
+  creator: "Saqlain Noorani",
   publisher: "ConvertHub",
   robots: "index, follow",
-  metadataBase: new URL("https://converthub.com"),
+  metadataBase: new URL("https://playh5games.site"),
   alternates: {
-    canonical: "https://converthub.com",
+    canonical: "https://playh5games.site",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://converthub.com",
+    url: "https://playh5games.site",
     title: "ConvertHub - Professional File Conversion Tools | 10 Advanced Converters",
     description:
       "Professional file conversion suite with 10 specialized tools for documents, images, videos, audio, and specialized formats. Fast, secure, and free.",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     yahoo: "your-yahoo-verification-code",
   },
   category: "technology",
-    generator: 'v0.app'
+    generator: 'saqlain'
 }
 
 export default function RootLayout({
