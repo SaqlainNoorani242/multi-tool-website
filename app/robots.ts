@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://converthub.com/sitemap.xml",
+    sitemap: "https://playh5games.site/sitemap.xml",
   }
 }
