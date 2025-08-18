@@ -98,7 +98,9 @@ export default function RootLayout({
         {/* Structured Data */}
         <WebApplicationSchema />
         <OrganizationSchema />
-      </head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9226719532045553"
+     crossorigin="anonymous"></script>
+</head>
       <body className="font-sans antialiased">
         <ThemeProvider
           attribute="class"
