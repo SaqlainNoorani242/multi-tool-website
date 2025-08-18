@@ -1,110 +1,140 @@
-import type { MetadataRoute } from "next"
+// sitemap.ts
+// Auto-generated from sitemap.xml
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://converthub.com"
-
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/svg-to-embroidery`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/handwriting-to-vector`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/3d-model-converter`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/pdf-to-word`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/word-to-pdf`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/excel-to-csv`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/powerpoint-to-pdf`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/image-converter`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/video-converter`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/audio-converter`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/cookies`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.5,
-    },
-  ]
-}
+export const sitemap = [
+  {
+    loc: "https://playh5games.site/",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 1.0,
+  },
+  {
+    loc: "https://playh5games.site/about",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/contact",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/blog",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/pdf-to-word",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/word-to-pdf",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/excel-to-csv",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/powerpoint-to-pdf",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/image-converter",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/video-converter",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/audio-converter",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/svg-to-embroidery",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/handwriting-to-vector",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/3d-model-converter",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/privacy",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/terms",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/cookies",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.8,
+  },
+  {
+    loc: "https://playh5games.site/blog/svg-to-embroidery-guide",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/pdf-to-word-best-practices",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/image-format-comparison",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/3d-model-formats-explained",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/handwriting-to-vector-tips",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/video-format-optimization",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/audio-formats-guide",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/document-conversion-security",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/file-compression-techniques",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+  {
+    loc: "https://playh5games.site/blog/digital-asset-management",
+    lastmod: "2025-08-18T09:26:38+00:00",
+    priority: 0.64,
+  },
+];
