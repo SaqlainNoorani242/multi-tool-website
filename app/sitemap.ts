@@ -1,12 +1,11 @@
-// sitemap.ts
-// Auto-generated from sitemap.xml
+import type { MetadataRoute } from "next";
 
-export const sitemap = [
-  {
-    loc: "https://playh5games.site/",
-    lastmod: "2025-08-18T09:26:38+00:00",
-    priority: 1.0,
-  },
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: "https://playh5games.site/",
+      lastModified: "2025-08-18T09:26:38+00:00",
+      priority: 1.0,
   {
     loc: "https://playh5games.site/about",
     lastmod: "2025-08-18T09:26:38+00:00",
